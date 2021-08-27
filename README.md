@@ -11,3 +11,5 @@
   - Principais instruções em C#: for, foreach, while, etc.
 - Revisao
   - Revisão de basicamente todo conteúdo visto durante esse curso introdutório 
+- Desafios e DesafiosMatematicos
+  - Resolução de Desafios de códigos proposto pela DIO
