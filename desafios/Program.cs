@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using static System.Boolean;
 
 namespace desafios
 {
@@ -9,8 +12,33 @@ namespace desafios
             // Multiplos();
             // NumerosImpares();
             // ConversaoTempo();
-            TrabalhoElfos();
+            // TrabalhoElfos();
+            desafio();
         }
+
+
+        private static void desafio()
+        {
+            int[] vetor = new int[20];
+            IEnumerable<int> sequencia = Enumerable.Range(0,20);
+            IEnumerable<int> sequencia2 = Enumerable.Range(0,20).Reverse();
+
+            foreach (int c in sequencia)
+            {
+                vetor[c] = int.Parse(Console.ReadLine());
+                
+            }
+
+            int k = 0;
+            foreach (int j in sequencia2)
+            {
+            Console.WriteLine($"N[{k}] = {vetor[j]}");
+            k++;
+            }
+
+        }
+
+
 
 
 
